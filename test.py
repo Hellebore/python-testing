@@ -1,10 +1,8 @@
 # this is a test script
 
 
-if a:
-    pass
+pass
 
 
 def function():
-    if False:
-        do_y()
+    pass
