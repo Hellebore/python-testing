@@ -1,8 +1,19 @@
 # this is a test script
 
 
-pass
+
+if True:
+    pass
 
 
 def function():
-    pass
+    if False:
+        pass
+
+    if x == None:
+        do_x()
+
+
+def func2():
+    if False:
+        pass
