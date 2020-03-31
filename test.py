@@ -13,6 +13,9 @@ def function():
     if x == None:
         do_x()
 
+    return None
+    do_x()
+
 
 def func2():
     if False:
