@@ -42,3 +42,7 @@ def move_assign(cond1, cond2):
     if cond2:
       print(a_var)
     print(a_var)
+
+def inline():
+    a = 1
+    return 1
