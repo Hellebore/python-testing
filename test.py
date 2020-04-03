@@ -43,6 +43,6 @@ def move_assign(cond1, cond2):
       print(a_var)
     print(a_var)
 
-def inline():
+def inline_return():
     a = 1
     return 1
