@@ -1,3 +1,2 @@
 def function():
-    if True:
-        pass
+    pass
