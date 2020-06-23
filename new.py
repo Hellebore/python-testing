@@ -1,6 +1,7 @@
 def awful():
     a()
     b()
+    c()
     a()
     a()
     a()
