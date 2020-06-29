@@ -2,25 +2,19 @@
 
 
 
-if True:
-    pass
+pass
 
 
 def function():
 
-    if False:
-        pass
-
-    if x == None:
+    if x is None:
         do_x()
 
     return None
-    do_x()
 
 
 def func2():
-    if False:
-        pass
+    pass
 
 
 
@@ -154,5 +148,3 @@ def func():
     b_var = 20
     b_var = 20
     b_var = 20
-    if False:
-        pass
