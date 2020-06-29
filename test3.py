@@ -8,7 +8,7 @@ def move_assign(cond1, cond2):
   b_var = 20
   b_var = 20
   b_var = 20
-  b_var = 20
+  g_var = 20
 
   b_var = 20
   b_var = 20
