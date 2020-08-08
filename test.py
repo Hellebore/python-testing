@@ -5,6 +5,9 @@
 if True:
     pass
 
+if False:
+    pass
+
 
 def function():
     if False:
