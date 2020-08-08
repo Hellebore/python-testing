@@ -1,0 +1,86 @@
+#####
+#
+# Sourcery Configuration
+#
+# All keys are optional and default as shown
+#
+#####
+
+# Paths to ignore from Sourcery refactorings
+#
+# Sourcery GitHub Bot always adds .github/workflow/* as the workflows folder
+# cannot be updated by bots
+#
+ignore:
+  - test/*
+# Refactoring config
+refactor:
+  # Refactoring ids to skip
+  #
+  # These refactorings will never be suggested by Sourcery
+  skip:
+    - extract-constant
+    - order-statements
+
+# Code Metrics configuration - VS Code extension (beta)
+metrics:
+  # This enables showing Sourcery code metrics in the plugin.
+  #
+  # These are shown at the method level when hovering the mouse
+  # over the method name.
+  #
+  enabled: true
+  # The quality score is a mark out of 10.
+  #
+  # Methods with a quality lower than this threshold will be flagged
+  # as warnings.
+  #
+  quality_threshold: 5.0
+
+
+# GitHub specific configuration
+github:
+  # Add labels to any created Sourcery PRs
+  #
+  # These can be used to tell other automation to avoid our PRs.
+  #
+  #   labels:
+  #     - build-ignore
+  #
+  labels:
+    - sourcery
+
+  # Request review on created Sourcery PRs
+  #
+  # Possible values:
+  # - author - the author of the original PR or the sender of the refactor request
+  # - owner - the owner of the base repository - this is not valid for organizations
+  # - none - nobody
+  # - user@name - a specific user
+  # - team@name - a specific team
+  #
+  # One value will apply to both origin and forked PRs:
+  #
+  #   request_review: author
+  #
+  # Or you can also specify separate values:
+  #
+  #   request_review:
+  #     origin: author
+  #     forked: owner
+  #
+  request_review: author
+
+  # Labels to ignore
+  #
+  # PRs with any of these labels will be ignored by Sourcery.
+  #
+  ignore_labels:
+    - sourcery-ignore
+
+  # Name Sourcery Pull Request branches
+  #
+  # This must contain {base_branch} which will be replaced with the branch name
+  # on the original Pull Request.
+  #
+  # sourcery_branch: sourcery/{base_branch}
