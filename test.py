@@ -2,43 +2,37 @@
 
 
 
-if True:
-    pass
+pass
 
 
 def function():
-    if False:
-        pass
-
-    if x == None:
+    if x is None:
         do_x()
 
     return None
-    do_x()
 
 
 def func2():
-    if False:
-        pass
+    pass
 
 
 
 def move_assign(cond1, cond2):
-  a_var = 10
-  b_var = 20
-  b_var = 20
-  b_var = 20
-  b_var = 20
-  b_var = 20
-  b_var = 20
-  b_var = 20
-  b_var = 20
-  b_var = 20
-  b_var = 20
-  b_var = 20
-  b_var = 20
-  if cond1:
-    c_var = 30
-    if cond2:
-      print(a_var)
-    print(a_var)
+    b_var = 20
+    b_var = 20
+    b_var = 20
+    b_var = 20
+    b_var = 20
+    b_var = 20
+    b_var = 20
+    b_var = 20
+    b_var = 20
+    b_var = 20
+    b_var = 20
+    b_var = 20
+    if cond1:
+        c_var = 30
+        a_var = 10
+        if cond2:
+          print(a_var)
+        print(a_var)
